@@ -21,7 +21,7 @@ class CameraCard extends AbstractCard {
    */
   #defaultConfig: PictureEntityCardConfig = {
     entity: "",
-    type: "picture-entity",
+    type: "custom:webrtc-camera",
     show_name: false,
     show_state: false,
     camera_view: "live",
